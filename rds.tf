@@ -1,8 +1,4 @@
-provider "aws" {
-  region = "ap-southeast-1"
-  access_key = "AKIAYP5CC6WOP3HWZAUV"
-  secret_key = "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"
-}
+
 
 resource "aws_db_instance" "default" {
   allocated_storage    = 10
